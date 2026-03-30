@@ -1,0 +1,17 @@
+[project]
+name = "expense-env"
+version = "0.1.0"
+description = "Expense Env FastAPI app"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "openenv-core>=0.2.0",
+    "requests"
+]
+
+[project.scripts]
+server = "server.app:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
