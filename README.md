@@ -1,17 +1,13 @@
-<<<<<<< HEAD
 ---
 title: Expense Env
-emoji: 🔥
-colorFrom: indigo
-colorTo: blue
+emoji: 🚀
+colorFrom: blue
+colorTo: green
 sdk: docker
+app_file: app.py
 pinned: false
-license: mit
-short_description: AI Expense Management Environment using OpenEnv API
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
-=======
-# expense-env
-AI Expense Management Environment using OpenEnv API  
+# Expense Env
 
+FastAPI-based expense tracking app deployed using Hugging Face Spaces.
